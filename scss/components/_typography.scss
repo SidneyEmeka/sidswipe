@@ -45,3 +45,32 @@
     margin-bottom: 1rem;
     background-color: $primary;
 }
+
+//DISPLAY-3
+
+.display-3 {
+    font-family: 'DM Serif Display', serif;
+
+
+    &--title {
+        font-size: 1.2rem;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-family: 'DM Serif Display', serif;
+        display: inline-block;
+        background-image: linear-gradient(to right, $primary, $secondary);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        @include  media-breakpoint-up(lg) {
+            font-size: 1.8rem;
+        }
+    }
+}
+
+//BORDER RIGHT
+.border-right {
+    border-right: 0.1rem solid $gray-300;
+    height: 100%;
+}
