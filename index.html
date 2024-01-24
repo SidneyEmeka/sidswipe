@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/css/fontawesome.css"<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
-
+<link rel="stylesheet" href="assets/vendors/css/glightbox.min.css">
 </head>
 <body>
  <!--START NAVBAR-->
@@ -72,7 +72,7 @@
             <div class="col-md-6 intros text-end">
             <div class="video-box">
             <img src="images/art/intro.png" alt="video illustration" class="img-fluid">
-            <a href="#" class="position-absolute top-50 start-50 translate-middle">
+            <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
               <span>
 
                 <i class="fas fa-play-circle"></i>
@@ -88,8 +88,51 @@
   </section>
 
 
+  <!--skills SECTION-->
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="row text-center">
+        <h4 class="fw-bold lead mb-3">With Proficiency In</h4>
+        <div class="heading-line mb-5"></div>
+      </div>
+    </div>
+    <!--START THE SKILLS SECTION-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-lg-2">
+          <div class="skills__logo-box shadow-sm"><img src="images/skills/skill-1.jpg" alt="skill" title="skill 1 logo" class="img-fluid"></div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="skills__logo-box shadow-sm"><img src="images/skills/skill-2.jpg" alt="skill" title="skill 2 logo" class="img-fluid"></div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="skills__logo-box shadow-sm"><img src="images/skills/skill-3.jpg" alt="skill" title="skill 3 logo" class="img-fluid"></div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="skills__logo-box shadow-sm"><img src="images/skills/skill-4.jpg" alt="skill" title="skill 4 logo" class="img-fluid"></div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="skills__logo-box shadow-sm"><img src="images/skills/skill-5.jpg" alt="skill" title="skill 5 logo" class="img-fluid"></div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="skills__logo-box shadow-sm"><img src="images/skills/skill-6.jpg" alt="skill" title="skill 6 logo" class="img-fluid"></div>
+        </div>
+      </div>
+    </div>
+  </section>
 
- 
+
+ <script src="/assets/vendors/js/glightbox.min.js"></script>
+ <script type="text/javascript">
+  const lightbox = GLightbox({
+    
+    'href': 'https://www.youtube.com/watch?v=Ga6RYejo6Hk',
+            'type': 'video',
+            'source': 'youtube', //vimeo, youtube or local
+            'width': 900,
+            
+});
+ </script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
   
