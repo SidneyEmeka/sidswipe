@@ -11865,9 +11865,45 @@ textarea.form-control-lg {
     opacity: 0;
   }
 }
+.btn-round {
+  position: relative;
+  padding: 0.6375rem 3.375rem 0.6375rem 1.2rem;
+  font-weight: 700;
+  margin: 0;
+  border: 0.1rem solid rgba(255, 255, 255, 0.6);
+  background-color: #fff;
+}
+@media (max-width: 575.98px) {
+  .btn-round {
+    display: none;
+  }
+}
+.btn-round span {
+  position: absolute;
+  background-color: #673c4f;
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+.btn-round span i {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 2.5rem;
+}
+.btn-round:hover {
+  background: linear-gradient(to right, rgba(103, 60, 79, 0.95), rgba(127, 85, 125, 0.95));
+  color: #fff;
+}
+.btn-round:hover span {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
 .btn-rounded {
   position: relative;
-  padding: 0.9375rem 4.375rem 0.9375rem 1.2rem;
+  padding: 0.6375rem 3.375rem 0.6375rem 1.2rem;
   font-weight: 700;
   margin: 0;
   border: 0.1rem solid rgba(255, 255, 255, 0.6);
