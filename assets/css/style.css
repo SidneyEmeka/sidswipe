@@ -11873,7 +11873,7 @@ textarea.form-control-lg {
   border: 0.1rem solid rgba(255, 255, 255, 0.6);
   background-color: #fff;
 }
-@media (max-width: 575.98px) {
+@media (min-width: 992px) {
   .btn-rounded {
     display: none;
   }
@@ -12029,6 +12029,10 @@ textarea.form-control-lg {
 }
 .skills__logo-box img:hover {
   filter: grayscale(120);
+}
+
+.yer {
+  display: inline;
 }
 
 .services {
