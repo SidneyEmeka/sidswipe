@@ -24,11 +24,28 @@ margin: 1rem 0;
 
     li::before {
         font-family: "DM Serif Display', serif";
-        content: "\f772";
+        content: "\ebaa";
         font-weight: 600;
         margin-right: 0.5rem;
         font-size: 1.2rem;
         
     }
 }
+}
+
+//FORM
+.form {
+    padding: 3rem;
+    
+    button {
+        border: none;
+        color: $white;
+
+
+        a {
+            color: $white;
+            text-decoration: none;
+            text-transform: capitalize;
+        }
+    }
 }
