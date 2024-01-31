@@ -11949,6 +11949,37 @@ textarea.form-control-lg {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+.btn-roundeds {
+  position: relative;
+  padding: 0.6375rem 3.375rem 0.6375rem 1.2rem;
+  font-weight: 700;
+  margin: 0 0 0 1rem;
+  border: 0.1rem solid rgba(255, 255, 255, 0.6);
+  background-color: #fff;
+}
+.btn-roundeds span {
+  position: absolute;
+  background-color: #673c4f;
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+.btn-roundeds span i {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 2.5rem;
+}
+.btn-roundeds:hover {
+  background: linear-gradient(to right, rgba(103, 60, 79, 0.95), rgba(127, 85, 125, 0.95));
+  color: #fff;
+}
+.btn-roundeds:hover span {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
 .btn-rounded {
   position: relative;
   padding: 0.6375rem 3.375rem 0.6375rem 1.2rem;
@@ -12262,7 +12293,7 @@ textarea.form-control-lg {
 }
 
 .cta-info {
-  padding: 3rem;
+  padding: 1rem;
   margin: 1rem 0;
 }
 .cta-info__list {
@@ -12271,11 +12302,10 @@ textarea.form-control-lg {
   display: block;
   padding-top: 0.5rem;
   padding-left: 0.5rem;
-  margin-bottom: 0.7rem;
+  margin-bottom: 0rem;
 }
 .cta-info__list li::before {
   font-family: "DM Serif Display', serif";
-  content: "\ebaa";
   font-weight: 600;
   margin-right: 0.5rem;
   font-size: 1.2rem;

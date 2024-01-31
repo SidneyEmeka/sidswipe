@@ -8,8 +8,9 @@
 }
 
 .cta-info {
-padding: 3rem;
+padding: 1rem;
 margin: 1rem 0;
+
 
 
 &__list {
@@ -18,13 +19,13 @@ margin: 1rem 0;
     display: block;
     padding-top: 0.5rem;
     padding-left: 0.5rem;
-    margin-bottom: 0.7rem;
+    margin-bottom: 0rem;
 
 
 
     li::before {
         font-family: "DM Serif Display', serif";
-        content: "\ebaa";
+       // content: "\ebaa";
         font-weight: 600;
         margin-right: 0.5rem;
         font-size: 1.2rem;
