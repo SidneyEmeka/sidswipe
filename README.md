@@ -1,4 +1,6 @@
 # MY PORTFOLIO
+Personal Portfolio website
 
-Being a web developer for 2yrs+ I finally decided to develop my portfolio where I expressed these skills.
-HTML, CSS, JAVASCRIPT, BOOTSTRAP and SASS/SCSS
+![Screenshot Capture - 2024-06-10 - 09-57-13](https://github.com/SidneyEmeka/sidswipe/assets/100122510/c09ce988-6de1-48c9-80c7-812e9b045810)
+
+## HTML, CSS, JAVASCRIPT, BOOTSTRAP and SASS/SCSS
