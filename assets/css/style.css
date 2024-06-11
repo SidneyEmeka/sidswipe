@@ -11987,6 +11987,7 @@ textarea.form-control-lg {
   margin: 0;
   border: 0.1rem solid rgba(255, 255, 255, 0.6);
   background-color: #fff;
+  margin-left: 20;
 }
 @media (min-width: 992px) {
   .btn-rounded {
@@ -12199,6 +12200,7 @@ textarea.form-control-lg {
   padding: 2rem 1.25rem;
   border-radius: 0.625rem;
   height: auto;
+  width: 90%;
   text-align: center;
 }
 .testimonials__card i {

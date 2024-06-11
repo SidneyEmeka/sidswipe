@@ -88,6 +88,7 @@
     margin: 0;
     border: 0.1rem solid rgba($white, 0.6);
     background-color: $white;
+    margin-left: 20;
 
     span {
         position: absolute;
@@ -98,6 +99,7 @@
         right: 5px;
         transform: translateY(-50%);
         border-radius: 50%;
+        
         
         i {
             color: $white;
